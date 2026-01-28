@@ -1,0 +1,22 @@
+Package: latentmed
+Title: Causal Mediation Analysis with Latent Variables
+Version: 0.0.0.9000
+Authors@R: 
+    person("Xinran", "Song", , "xs3974@columbia.edu", role = c("aut", "cre"))
+Description: Bayesian nonparametric methods for causal mediation analysis
+    when mediators and/or outcomes are latent constructs measured through
+    multiple indicators. Uses BART (Bayesian Additive Regression Trees) for
+    flexible modeling of the mediator and outcome regressions.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+URL: https://github.com/XinranSong/latentmed
+BugReports: https://github.com/XinranSong/latentmed/issues
+Imports:
+    MASS,
+    SoftBart,
+    progress
+Suggests:
+    rstan,
+    testthat (>= 3.0.0)
